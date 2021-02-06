@@ -1,0 +1,89 @@
+.footer {
+    padding: 60px 0;
+    .container {
+        .ft {
+            .row {
+                .footer-content {
+                    text-align: start;
+                    .title {
+                        h3 {
+                            font-size: 18px;
+                            line-height: 27px;
+                            font-weight: 600;
+                            color: #151515;
+                        }
+                    }
+                    .text {
+                        ul {
+                            li {
+                                a {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 19px;
+                                    text-decoration: none;
+
+                                    color: rgba(1, 127, 255, 1);
+                                    &:hover {
+                                        color: #151515;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .-bottom {
+            margin-top: 45px;
+            .footer-content {
+                .title {
+                    text-align: start;
+                    margin-bottom: 15px;
+                    h3 {
+                        font-size: 18px;
+                        line-height: 27px;
+                        font-weight: 600;
+                        color: #151515;
+                    }
+                }
+            }
+            .product-tags {
+                .tags1 {
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .tags2 {
+                    li {
+                        a {
+                            margin-right: 15px;
+                        }
+                    }
+                }
+                a {
+                    font-size: 12px;
+                    color: #151515;
+                    font-weight: 600;
+                    line-height: 18px;
+                    display: block;
+                    padding: 4px 10px;
+                    background: #f5f5f5;
+                    border-radius: 12px;
+                    text-decoration: none;
+                    &:hover {
+                        color:rgba(1, 127, 255, 1);
+                    }
+                }
+            }
+            .copyright {
+                span {
+                    margin-top: 20px;
+                    font-size: 14px;
+                    color: #151515;
+                    font-weight: 400;
+                    text-align: start;
+                    display: block;
+                }
+            }
+        }
+    }
+}
